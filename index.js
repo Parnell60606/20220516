@@ -6,7 +6,6 @@ import data from './data.js'
 data.fetchData()
 
 schedule.scheduleJob('0 0 * * *', () => {
-    console.log('aaa')
     data.fetchData
 })
 
